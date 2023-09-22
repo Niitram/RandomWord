@@ -1,0 +1,26 @@
+.container {
+  width: 90%;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(12.5px);
+  -webkit-backdrop-filter: blur(12.5px);
+  border-radius: 10px;
+  border: 1px solid #3df2d3;
+}
+.randomWord {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Croissant One", cursive;
+}
+.btnRandom {
+  margin-bottom: 20px;
+  background-color: #3df2d3;
+  border: none;
+}
