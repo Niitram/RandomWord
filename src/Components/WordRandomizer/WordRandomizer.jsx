@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "./WordRandomizer.module.css";
+import "./WordRandomizer.css";
 
 const WordRandomizer = () => {
   const data = [
@@ -43,9 +43,9 @@ const WordRandomizer = () => {
   const chooseWord = "Elige tu palabra";
 
   return (
-    <div className={styles.container}>
+    <div className="container">
       <div>
-        <h2 className={styles.randomWord}>
+        <h2 className="randomWord">
           {randomWord ? randomWord.word : chooseWord}
         </h2>
         {/* {randomWord && randomWord.image && (
@@ -53,7 +53,7 @@ const WordRandomizer = () => {
         )} */}
         {randomWord && randomWord.phrase && <p>{randomWord.phrase}</p>}
       </div>
-      <button className={styles.btnRandom} onClick={handleRandomize}>
+      <button className="btnRandom" onClick={handleRandomize}>
         Generar Palabra
       </button>
     </div>
