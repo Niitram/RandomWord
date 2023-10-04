@@ -171,6 +171,91 @@ const WordRandomizer = () => {
       phrase:
         "La generación existe en todo; todo tiene su principio masculino y femenino. Este principio se refiere a la dualidad presente en la creación y la regeneración continua en el universo.",
     },
+    {
+    "word": "11 pasos de la magia: Paso 1: La Preparación",
+    "image": "algo.jpg",
+    "phrase": "En el primer paso, La Preparación, se trata de crear un ambiente propicio. Preparar el espacio y la mente es esencial para la práctica mágica, estableciendo las bases sólidas para el trabajo por venir."
+  },
+  {
+    "word": "11 pasos de la magia: Paso 2: La Purificación",
+    "image": "algo.jpg",
+    "phrase": "En el segundo paso, La Purificación, el objetivo es limpiar y purificar tanto el entorno como el cuerpo. Esto elimina las energías negativas y asegura que el canal esté limpio y listo para la magia."
+  },
+  {
+    "word": "11 pasos de la magia: Paso 3: La Invocación",
+    "image": "algo.jpg",
+    "phrase": "El tercer paso, La Invocación, implica conectar con las energías o seres con los que se desea trabajar. Es un acto de llamado a estas fuerzas para que participen en el ritual mágico."
+  },
+  {
+    "word": "11 pasos de la magia: Paso 4: La Visualización",
+    "image": "algo.jpg",
+    "phrase": "En el cuarto paso, La Visualización, se busca crear una imagen mental clara y vívida del objetivo deseado. Esto ayuda a concentrar la energía en la manifestación de ese objetivo."
+  },
+  {
+    "word": "11 pasos de la magia: Paso 5: La Concentración",
+    "image": "algo.jpg",
+    "phrase": "El quinto paso, La Concentración, implica mantener la atención enfocada exclusivamente en el objetivo. Esto evita distracciones y potencia la magia."
+  },
+  {
+    "word": "11 pasos de la magia: Paso 6: La Canalización",
+    "image": "algo.jpg",
+    "phrase": "El sexto paso, La Canalización, es el proceso de dirigir y canalizar la energía hacia el objetivo. Se trata de enfocar la intención y la energía en el resultado deseado."
+  },
+  {
+    "word": "11 pasos de la magia: Paso 7: La Manifestación",
+    "image": "algo.jpg",
+    "phrase": "En el séptimo paso, La Manifestación, se permite que el resultado deseado se manifieste en la realidad. Es el punto culminante de la magia."
+  },
+  {
+    "word": "11 pasos de la magia: Paso 8: La Celebración",
+    "image": "algo.jpg",
+    "phrase": "El octavo paso, La Celebración, implica celebrar el éxito de la magia realizada. Es un acto de gratitud y alegría por la manifestación de los deseos."
+  },
+  {
+    "word": "11 pasos de la magia: Paso 9: La Agradecimiento",
+    "image": "algo.jpg",
+    "phrase": "El noveno paso, La Agradecimiento, consiste en mostrar gratitud a las fuerzas o seres invocados. Es un acto de respeto y reconocimiento por su ayuda."
+  },
+  {
+    "word": "11 pasos de la magia: Paso 10: La Despedida",
+    "image": "algo.jpg",
+    "phrase": "En el décimo paso, La Despedida, se cierra el contacto con las energías invocadas y se finaliza el ritual. Es importante hacerlo de manera adecuada para mantener el equilibrio."
+  },
+  {
+    "word": "11 pasos de la magia: Paso 11: La Reflexión",
+    "image": "algo.jpg",
+    "phrase": "El último paso, La Reflexión, implica mirar hacia atrás en la experiencia y aprender de ella. Es una oportunidad para evaluar el trabajo mágico y crecer como practicante."
+  },
+    {
+    "word": "Los 4 Acuerdos: Acuerdo 1 - Sé impecable con tus palabras",
+    "image": "algo.jpg",
+    "phrase": "El primer acuerdo, 'Sé impecable con tus palabras', se trata de la importancia de usar el lenguaje de manera honesta y positiva. Evitar la mentira y el chisme, y usar las palabras para crear amor y armonía."
+  },
+  {
+    "word": "Los 4 Acuerdos: Acuerdo 2 - No te tomes nada personalmente",
+    "image": "algo.jpg",
+    "phrase": "En el segundo acuerdo, 'No te tomes nada personalmente', se enfatiza que lo que los demás dicen o hacen no es un reflejo de ti. Libérate de la necesidad de buscar aprobación externa y mantén tu paz interior."
+  },
+  {
+    "word": "Los 4 Acuerdos: Acuerdo 3 - No hagas suposiciones",
+    "image": "algo.jpg",
+    "phrase": "El tercer acuerdo, 'No hagas suposiciones', nos insta a comunicarnos de manera clara y abierta. Evita asumir lo que otros piensan o sienten y busca la verdad a través del diálogo y la comprensión."
+  },
+  {
+    "word": "Los 4 Acuerdos: Acuerdo 4 - Haz siempre lo máximo que puedas",
+    "image": "algo.jpg",
+    "phrase": "En el cuarto acuerdo, 'Haz siempre lo máximo que puedas', se nos recuerda que debemos esforzarnos al máximo en todo lo que hacemos. No importa el resultado, lo importante es el esfuerzo y la dedicación que ponemos en cada acción."
+  },
+    {
+    "word": "Autodisciplina",
+    "image": "algo.jpg",
+    "phrase": "La autodisciplina es la capacidad de controlar y dirigir tus acciones y comportamientos hacia metas y objetivos específicos, incluso cuando enfrentas distracciones o tentaciones."
+  },
+  {
+    "word": "Ikigai",
+    "image": "algo.jpg",
+    "phrase": "El ikigai es un concepto japonés que se refiere a la razón de ser, la pasión o el propósito en la vida de una persona. Es la intersección de lo que amas, lo que eres bueno haciendo, lo que el mundo necesita y lo que puedes ser remunerado por hacer."
+  },
   ];
 
   const [randomWord, setRandomWord] = useState(null);
