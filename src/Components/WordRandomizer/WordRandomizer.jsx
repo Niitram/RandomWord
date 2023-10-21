@@ -291,6 +291,41 @@ const WordRandomizer = () => {
     "image": "bushido_chugi.jpg",
     "phrase": "La Ley de Chugi, o Lealtad, requiere que los samuráis sean leales y fieles a sus principios y a quienes sirven. Deben mantener la lealtad en todas las circunstancias."
   },
+    {
+    "word": "Las 7 Leyes del Universo, Ley de Control",
+    "image": "control.jpg",
+    "phrase": "La Ley de Control nos enseña que tenemos el poder de controlar nuestras acciones y reacciones. Podemos elegir cómo respondemos a las circunstancias."
+  },
+  {
+    "word": "Las 7 Leyes del Universo, Ley de Causa y Efecto",
+    "image": "causa_efecto.jpg",
+    "phrase": "La Ley de Causa y Efecto establece que cada acción tiene una consecuencia. Lo que sembramos en nuestras vidas es lo que cosechamos."
+  },
+  {
+    "word": "Las 7 Leyes del Universo, Ley de la Creencia",
+    "image": "creencia.jpg",
+    "phrase": "La Ley de la Creencia sostiene que nuestras creencias y pensamientos influyen en nuestra realidad. Creer en algo con convicción puede manifestarse en nuestra vida."
+  },
+  {
+    "word": "Las 7 Leyes del Universo, Ley de las Expectativas",
+    "image": "expectativas.jpg",
+    "phrase": "La Ley de las Expectativas nos recuerda que lo que esperamos a menudo se cumple. Nuestras expectativas pueden dar forma a nuestras experiencias."
+  },
+  {
+    "word": "Las 7 Leyes del Universo, Ley de la Atracción",
+    "image": "atraccion.jpg",
+    "phrase": "La Ley de la Atracción postula que atraemos a nuestras vidas lo que pensamos y sentimos. Nuestras energías atraen experiencias y personas similares."
+  },
+  {
+    "word": "Las 7 Leyes del Universo, Ley de Correspondencia",
+    "image": "correspondencia.jpg",
+    "phrase": "La Ley de Correspondencia sugiere que lo que está arriba se refleja abajo, y viceversa. Hay un patrón y equilibrio en el universo."
+  },
+  {
+    "word": "Las 7 Leyes del Universo, Ley de Equivalencia Mental",
+    "image": "equivalencia_mental.jpg",
+    "phrase": "La Ley de Equivalencia Mental explica que nuestras acciones deben estar en armonía con nuestros pensamientos y deseos. Debemos alinear nuestra mente con nuestras metas."
+  },
   ];
 
   const [randomWord, setRandomWord] = useState(null);
