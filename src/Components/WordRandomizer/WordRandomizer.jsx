@@ -326,6 +326,11 @@ const WordRandomizer = () => {
     "image": "equivalencia_mental.jpg",
     "phrase": "La Ley de Equivalencia Mental explica que nuestras acciones deben estar en armonía con nuestros pensamientos y deseos. Debemos alinear nuestra mente con nuestras metas."
   },
+    {
+  "word": "Logosofía",
+  "image": "logosofia.jpg",
+  "phrase": "La Logosofía es una disciplina filosófica y espiritual que se centra en el conocimiento de uno mismo y en el desarrollo de la conciencia. Busca el entendimiento de las leyes universales y propone una forma de vivir más consciente y en armonía con el mundo que nos rodea. La Logosofía ofrece herramientas y técnicas para el crecimiento interior, la autorreflexión y el autodescubrimiento."
+},
   ];
 
   const [randomWord, setRandomWord] = useState(null);
