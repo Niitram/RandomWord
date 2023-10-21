@@ -256,6 +256,41 @@ const WordRandomizer = () => {
     "image": "algo.jpg",
     "phrase": "El ikigai es un concepto japonés que se refiere a la razón de ser, la pasión o el propósito en la vida de una persona. Es la intersección de lo que amas, lo que eres bueno haciendo, lo que el mundo necesita y lo que puedes ser remunerado por hacer."
   },
+    {
+    "word": "Las 7 Leyes del Bushido, Ley de Gi (Rectitud)",
+    "image": "bushido_gi.jpg",
+    "phrase": "La Ley de Gi, o Rectitud, exige que un samurái actúe con honestidad y justicia en todas las situaciones. Esto implica hacer lo correcto, incluso cuando es difícil o desafiante."
+  },
+  {
+    "word": "Las 7 Leyes del Bushido, Ley de Yu (Valor)",
+    "image": "bushido_yu.jpg",
+    "phrase": "La Ley de Yu, o Valor, requiere que un samurái muestre valentía y determinación en todo momento. Deben enfrentar el peligro y las adversidades con coraje."
+  },
+  {
+    "word": "Las 7 Leyes del Bushido, Ley de Jin (Compasión)",
+    "image": "bushido_jin.jpg",
+    "phrase": "La Ley de Jin, o Compasión, implica mostrar compasión y empatía hacia los demás. Los samuráis deben cuidar y ayudar a los necesitados."
+  },
+  {
+    "word": "Las 7 Leyes del Bushido, Ley de Rei (Cortesía)",
+    "image": "bushido_rei.jpg",
+    "phrase": "La Ley de Rei, o Cortesía, exige que los samuráis sean respetuosos y corteses en todas sus interacciones. Deben mostrar respeto hacia los demás."
+  },
+  {
+    "word": "Las 7 Leyes del Bushido, Ley de Makoto (Sinceridad)",
+    "image": "bushido_makoto.jpg",
+    "phrase": "La Ley de Makoto, o Sinceridad, significa decir siempre la verdad y ser sincero en todas las palabras y acciones."
+  },
+  {
+    "word": "Las 7 Leyes del Bushido, Ley de Meiyo (Honor)",
+    "image": "bushido_meiyo.jpg",
+    "phrase": "La Ley de Meiyo, o Honor, implica mantener la integridad y el honor en todas las acciones. Los samuráis deben actuar con honor en todo momento."
+  },
+  {
+    "word": "Las 7 Leyes del Bushido, Ley de Chugi (Lealtad)",
+    "image": "bushido_chugi.jpg",
+    "phrase": "La Ley de Chugi, o Lealtad, requiere que los samuráis sean leales y fieles a sus principios y a quienes sirven. Deben mantener la lealtad en todas las circunstancias."
+  },
   ];
 
   const [randomWord, setRandomWord] = useState(null);
