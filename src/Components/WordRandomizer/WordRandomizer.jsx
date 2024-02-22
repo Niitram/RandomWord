@@ -331,6 +331,96 @@ const WordRandomizer = () => {
   "image": "logosofia.jpg",
   "phrase": "La Logosofía es una disciplina filosófica y espiritual que se centra en el conocimiento de uno mismo y en el desarrollo de la conciencia. Busca el entendimiento de las leyes universales y propone una forma de vivir más consciente y en armonía con el mundo que nos rodea. La Logosofía ofrece herramientas y técnicas para el crecimiento interior, la autorreflexión y el autodescubrimiento."
 },
+    {
+    word: "Amor a uno mismo",
+    image: "amor_uno_mismo.png",
+    phrase:
+      "El amor a uno mismo es la base para una vida plena. Implica cuidar de nuestras necesidades emocionales, físicas y espirituales, reconociendo nuestro valor y cultivando una relación positiva con nosotros mismos.",
+  },
+  {
+    word: "Respeto al prójimo",
+    image: "respeto_projimo.png",
+    phrase:
+      "El respeto al prójimo es fundamental para una convivencia armoniosa. Significa reconocer la dignidad y los derechos de los demás, tratando a cada individuo con consideración y empatía.",
+  },
+  {
+    word: "Equilibrio Interior",
+    image: "equilibrio_interior.png",
+    phrase:
+      "El equilibrio interior es la armonía entre cuerpo, mente y espíritu. Buscar este equilibrio nos permite enfrentar los desafíos de la vida con calma y claridad, manteniendo nuestra paz interna.",
+  },
+  {
+    word: "Fluidez",
+    image: "fluidez.png",
+    phrase:
+      "La fluidez es la capacidad de adaptarse y fluir con los cambios de la vida. Nos permite estar abiertos a nuevas experiencias y situaciones, sin resistencia ni rigidez.",
+  },
+  {
+    word: "Conexión Universal",
+    image: "conexion_universal.png",
+    phrase:
+      "La conexión universal es la comprensión de que todo en el universo está interconectado. Nos recuerda que nuestras acciones y pensamientos tienen un impacto en el mundo que nos rodea.",
+  },
+  {
+    word: "Serenidad",
+    image: "serenidad.png",
+    phrase:
+      "La serenidad es la calma interior que nos permite enfrentar el caos externo. Nos ayuda a mantener la paz mental y emocional, incluso en momentos de turbulencia.",
+  },
+  {
+    word: "Claridad Mental",
+    image: "claridad_mental.png",
+    phrase:
+      "La claridad mental es la capacidad de pensar con enfoque y precisión. Nos permite tomar decisiones informadas y ver con claridad el camino hacia nuestros objetivos.",
+  },
+  {
+    word: "Resiliencia",
+    image: "resiliencia.png",
+    phrase:
+      "La resiliencia es la capacidad de recuperarse de las adversidades. Nos permite superar los obstáculos y crecer a partir de las experiencias difíciles, saliendo más fuertes y sabios.",
+  },
+  {
+    word: "Autenticidad",
+    image: "autenticidad.png",
+    phrase:
+      "La autenticidad es ser fiel a uno mismo y a nuestros valores. Nos anima a expresarnos genuinamente, sin miedo al juicio externo, creando conexiones más profundas y significativas.",
+  },
+  {
+    word: "Empatía",
+    image: "empatia.png",
+    phrase:
+      "La empatía es la capacidad de ponerse en el lugar del otro y comprender sus sentimientos. Nos permite construir relaciones sólidas y contribuir a un mundo más compasivo y comprensivo.",
+  },
+  {
+    word: "Gratitud",
+    image: "gratitud.png",
+    phrase:
+      "La gratitud es reconocer y apreciar las bendiciones de la vida. Nos ayuda a enfocarnos en lo positivo, cultivando una actitud de alegría y generosidad.",
+  },
+  {
+    word: "Equidad",
+    image: "equidad.png",
+    phrase:
+      "La equidad es la justicia y la imparcialidad en nuestras interacciones. Nos impulsa a tratar a todos con igualdad de oportunidades y derechos, promoviendo la inclusión y la diversidad.",
+  },
+  {
+    word: "Abundancia",
+    image: "abundancia.png",
+    phrase:
+      "La abundancia es la creencia en la suficiencia y la prosperidad. Nos permite ver el mundo como un lugar lleno de oportunidades y posibilidades, cultivando una mentalidad de plenitud y generosidad.",
+  },
+  {
+    word: "Armonía",
+    image: "armonia.png",
+    phrase:
+      "La armonía es el equilibrio y la coexistencia pacífica. Nos inspira a buscar la paz tanto dentro de nosotros mismos como en nuestras relaciones con los demás y el mundo que nos rodea.",
+  },
+  {
+    word: "Conciencia Plena",
+    image: "conciencia_plena.png",
+    phrase:
+      "La conciencia plena es estar presente en el momento presente con atención y aceptación. Nos ayuda a reducir el estrés, mejorar la concentración y experimentar la vida con mayor claridad y serenidad.",
+  },
   ];
 
   const [randomWord, setRandomWord] = useState(null);
