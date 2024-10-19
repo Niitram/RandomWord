@@ -378,6 +378,216 @@ const WordRandomizer = () => {
   "image": "conciencia_plena.png",
   "phrase": "La conciencia plena es estar presente en el momento presente con atención y aceptación. Nos ayuda a reducir el estrés, mejorar la concentración y experimentar la vida con mayor claridad y serenidad.",
 },
+{
+  "word": "Mejora Continua",
+  "image": "mejora_continua.png",
+  "phrase": "Implica asumir que siempre hay espacio para crecer y mejorar, perfeccionando cada aspecto de ti mismo. Ya sea en tus habilidades profesionales o en tus relaciones personales, busca ser una mejor versión de ti cada día.",
+},
+{
+  "word": "Conciencia en el Ahora",
+  "image": "conciencia_ahora.png",
+  "phrase": "En lugar de quedarte atrapado en pensamientos del pasado o preocupaciones por el futuro, practica estar plenamente presente en lo que ocurre en este momento. Esto te permite vivir de manera más consciente, apreciando cada detalle de la vida.",
+},
+{
+  "word": "Visualización Abundante",
+  "image": "visualizacion_abundante.png",
+  "phrase": "Al imaginar vívidamente la abundancia que deseas, envías una señal clara al universo sobre lo que quieres atraer. Visualizar regularmente tus metas con emoción y certeza te ayuda a manifestar esa abundancia en tu vida.",
+},
+{
+  "word": "Gratitud Diaria",
+  "image": "gratitud_diaria.png",
+  "phrase": "Practicar la gratitud diaria eleva tu vibración y te conecta con la energía de la abundancia. Agradecer tanto lo grande como lo pequeño te permite ver el lado positivo en cualquier circunstancia.",
+},
+{
+  "word": "Alineación con Propósito",
+  "image": "alineacion_proposito.png",
+  "phrase": "Descubrir tu propósito significa conectar con aquello que te da sentido y motivación en la vida. Cuando vives alineado con tu propósito, tus acciones son coherentes y te mueves en la dirección correcta.",
+},
+{
+  "word": "Ley de Atracción",
+  "image": "ley_atraccion.png",
+  "phrase": "Reconocer que tus pensamientos y emociones crean tu realidad te permite ser más consciente de lo que eliges atraer. Al mantener una mentalidad positiva y emociones elevadas, puedes manifestar experiencias más deseables.",
+},
+{
+  "word": "Autoconocimiento",
+  "image": "autoconocimiento.png",
+  "phrase": "Conocerte a ti mismo es clave para tu crecimiento personal. Al identificar tus fortalezas y debilidades, puedes trabajar en ellas conscientemente y tomar decisiones más alineadas con tu verdadero ser.",
+},
+{
+  "word": "Responsabilidad Personal",
+  "image": "responsabilidad_personal.png",
+  "phrase": "Tomar responsabilidad total por tu vida implica aceptar que eres el creador de tus experiencias. Esto te empodera para cambiar lo que no te gusta y mejorar continuamente tu realidad.",
+},
+{
+  "word": "Mente Abierta",
+  "image": "mente_abierta.png",
+  "phrase": "Mantener una mentalidad abierta te permite aprender de cada experiencia y persona que encuentres. Estar dispuesto a cambiar tus creencias y aceptar nuevas ideas fomenta un crecimiento más rápido y profundo.",
+},
+{
+  "word": "Visualización Creativa",
+  "image": "visualizacion_creativa.png",
+  "phrase": "Al usar la imaginación para crear escenarios ideales en tu mente, comienzas a sentir y vibrar con esos deseos, lo que facilita su manifestación. Es una herramienta poderosa para diseñar la vida que deseas.",
+},
+{
+  "word": "Compasión y Amor Propio",
+  "image": "compasion_amor_propio.png",
+  "phrase": "Tratarte con amabilidad y aceptación te permite sanar, crecer y enfrentar la vida con más confianza. El amor propio es la base para construir relaciones saludables y alcanzar tus metas.",
+},
+{
+  "word": "Vibración Elevada",
+  "image": "vibracion_elevada.png",
+  "phrase": "Mantener una vibración alta significa enfocarte en emociones positivas como el amor, la alegría y la gratitud. Estas emociones elevadas te alinean con experiencias y personas que vibran en la misma frecuencia.",
+},
+{
+  "word": "Ley del Espejo",
+  "image": "ley_espejo.png",
+  "phrase": "Las personas y situaciones en tu vida reflejan tu estado interior. Al observar tus interacciones, puedes identificar aspectos de ti mismo que necesitan sanación o ajuste para mejorar tu entorno.",
+},
+{
+  "word": "Desapego",
+  "image": "desapego.png",
+  "phrase": "Soltar lo que ya no sirve en tu vida, ya sea una idea, una relación o una situación, te permite hacer espacio para lo nuevo. Al confiar en el proceso, te abres a recibir lo que es verdaderamente adecuado para ti.",
+},
+{
+  "word": "Intención Clara",
+  "image": "intencion_clara.png",
+  "phrase": "Definir metas claras y trabajar en ellas con determinación te ayuda a canalizar tu energía de manera eficiente. El universo responde a las intenciones claras y te brinda oportunidades para alcanzar lo que deseas.",
+},
+{
+  "word": "Meditación Consciente",
+  "image": "meditacion_consciente.png",
+  "phrase": "La meditación es una herramienta poderosa para calmar la mente y conectarte con tu ser interior. Al practicarla regularmente, desarrollas una mayor claridad mental y emocional, lo que facilita la toma de decisiones alineadas.",
+},
+{
+  "word": "Sincronicidades",
+  "image": "sincronicidades.png",
+  "phrase": "Prestar atención a las coincidencias significativas en tu vida te permite reconocer el flujo natural del universo. Estas señales te guían hacia oportunidades y personas clave en tu camino de crecimiento.",
+},
+{
+  "word": "Autodisciplina",
+  "image": "autodisciplina.png",
+  "phrase": "La autodisciplina es la capacidad de mantenerte comprometido con tus metas, incluso cuando la motivación fluctúa. Esta consistencia te lleva más cerca de tus sueños y fortalece tu carácter.",
+},
+{
+  "word": "Empatía y Conexión",
+  "image": "empatia_conexion.png",
+  "phrase": "Desarrollar una conexión auténtica con los demás a través de la empatía fomenta relaciones más profundas y enriquecedoras. Al comprender a los demás, también te entiendes mejor a ti mismo.",
+},
+{
+  "word": "Confianza en el Proceso",
+  "image": "confianza_proceso.png",
+  "phrase": "Confiar en que cada experiencia, sea positiva o negativa, tiene un propósito en tu evolución te permite fluir mejor con la vida. Esto reduce la ansiedad y te ayuda a mantener una actitud positiva.",
+},
+{
+  "word": "Servicio Desinteresado",
+  "image": "servicio_desinteresado.png",
+  "phrase": "Actuar desde el servicio desinteresado te conecta con los demás y te recuerda que somos parte de un todo. Al dar sin esperar nada a cambio, creas un flujo natural de retorno positivo en tu vida.",
+},
+{
+  "word": "Sincronicidad y Propósito",
+  "image": "sincronicidad_proposito.png",
+  "phrase": "Las coincidencias significativas no son simples casualidades; son mensajes del universo que te guían hacia tu propósito. Estar atento a estas sincronicidades te ayuda a reconocer oportunidades valiosas y a confiar en que estás en el camino correcto.",
+},
+{
+  "word": "Conciencia Plena",
+  "image": "conciencia_plena.png",
+  "phrase": "Observar tus pensamientos y emociones sin apegarte a ellos te permite vivir con mayor claridad y paz interior. Esta práctica te ayuda a no identificarte con los juicios o las reacciones automáticas, creando espacio para responder de manera más consciente.",
+},
+{
+  "word": "Aplicar las Leyes Universales",
+  "image": "leyes_universales.png",
+  "phrase": "Vivir según los principios universales como la ley de la vibración y causa-efecto te alinea con el flujo natural de la vida. Al reconocer que todo tiene una causa y una consecuencia, puedes tomar decisiones más conscientes y coherentes.",
+},
+{
+  "word": "Presencia Total",
+  "image": "presencia_total.png",
+  "phrase": "Practicar la presencia total significa enfocarte completamente en el aquí y el ahora, sin distracciones de preocupaciones futuras o recuerdos pasados. Esta práctica te ayuda a experimentar la vida plenamente y a reducir el estrés.",
+},
+{
+  "word": "Honra tus Acuerdos",
+  "image": "honra_acuerdos.png",
+  "phrase": "Ser impecable con tus palabras y mantener tus compromisos es fundamental para crear relaciones de confianza y autenticidad. Al actuar con responsabilidad y verdad, cultivas un entorno de respeto y coherencia.",
+},
+{
+  "word": "Visualiza tus Sueños",
+  "image": "visualiza_suenos.png",
+  "phrase": "La visualización es una herramienta poderosa para manifestar lo que deseas. Al imaginar con detalle tus sueños, generas la energía y la emoción necesarias para atraer esas experiencias a tu vida.",
+},
+{
+  "word": "Conexión Espiritual",
+  "image": "conexion_espiritual.png",
+  "phrase": "Conectar con lo divino a través de la meditación y la autoexploración fortalece tu sentido de propósito y paz interior. Esta conexión te ayuda a trascender el ego y a encontrar sentido en tu vida diaria.",
+},
+{
+  "word": "Mentalidad de Abundancia",
+  "image": "mentalidad_abundancia.png",
+  "phrase": "Cambiar tus creencias limitantes te abre a recibir la prosperidad que el universo tiene para ti. Una mentalidad de abundancia te permite ver oportunidades en lugar de limitaciones y atraer más riqueza a tu vida.",
+},
+{
+  "word": "Liberación de Creencias Tóxicas",
+  "image": "liberacion_creencias_toxicas.png",
+  "phrase": "Identificar y liberar creencias autodestructivas te permite avanzar sin las limitaciones mentales que frenan tu crecimiento. Al dejar atrás estos pensamientos tóxicos, puedes crear una mentalidad más empoderadora y positiva.",
+},
+{
+  "word": "Simplificación",
+  "image": "simplificacion.png",
+  "phrase": "Simplificar tu entorno físico y mental te ayuda a enfocarte en lo esencial y a eliminar distracciones innecesarias. Un espacio más ordenado y limpio también facilita la claridad mental y emocional.",
+},
+{
+  "word": "Busca tu Leyenda Personal",
+  "image": "leyenda_personal.png",
+  "phrase": "Escuchar a tu corazón y perseguir tus sueños te alinea con tu propósito más profundo. Confiar en que el universo te apoya en el camino hacia tu leyenda personal te impulsa a seguir adelante, incluso en momentos de duda.",
+},
+{
+  "word": "Reflexiona en el Espejo",
+  "image": "reflexiona_espejo.png",
+  "phrase": "Las relaciones y las situaciones que vives son reflejos de tu mundo interior. Al observar lo que se te presenta, puedes identificar áreas en las que necesitas trabajar para crecer y evolucionar personalmente.",
+},
+{
+  "word": "Despierta tu Potencial",
+  "image": "despierta_potencial.png",
+  "phrase": "Encontrar el héroe dentro de ti implica reconocer tu poder y actuar desde tu mejor versión, incluso en situaciones difíciles. Esto te empodera para tomar decisiones alineadas con tu verdadera esencia.",
+},
+{
+  "word": "Intención Consciente",
+  "image": "intencion_consciente.png",
+  "phrase": "Establecer intenciones claras y actuar con propósito te ayuda a dirigir tu energía hacia lo que realmente importa. Al mantener el enfoque en lo que deseas, aumentas la probabilidad de manifestar tus objetivos.",
+},
+{
+  "word": "Crea tu Propia Realidad",
+  "image": "crea_realidad.png",
+  "phrase": "Reconocer que eres el creador de tu realidad te otorga poder para transformar tu vida. Tus pensamientos, emociones y acciones son las herramientas con las que moldeas tu experiencia, por lo que usarlas de manera consciente te permite crear lo que deseas.",
+},
+{
+  "word": "Negociación Empática",
+  "image": "negociacion_empatica.png",
+  "phrase": "La empatía es clave para una comunicación efectiva, especialmente en situaciones difíciles. Al escuchar y comprender las necesidades del otro, puedes llegar a acuerdos que beneficien a ambas partes, generando armonía y resolución.",
+},
+{
+  "word": "Crea Riqueza con Mente Positiva",
+  "image": "riqueza_mente_positiva.png",
+  "phrase": "Los pensamientos positivos y las acciones coherentes son la base para atraer prosperidad y éxito financiero. Al mantener una actitud positiva hacia la riqueza, alineas tu energía con la abundancia.",
+},
+{
+  "word": "Ser Auténtico",
+  "image": "ser_autentico.png",
+  "phrase": "Vivir desde la autenticidad implica aceptarte completamente tal como eres, sin necesidad de máscaras. Al ser fiel a ti mismo, creas relaciones más genuinas y te liberas del peso de las expectativas externas.",
+},
+{
+  "word": "Desarrolla el Éxito Espiritual",
+  "image": "exito_espiritual.png",
+  "phrase": "Practicar leyes espirituales como la intención, el desapego y el servicio te permite alcanzar el éxito tanto material como espiritual. Al integrar estas prácticas en tu vida diaria, te alineas con un flujo de bienestar más profundo.",
+},
+{
+  "word": "Conversación Interna Positiva",
+  "image": "conversacion_interna.png",
+  "phrase": "Cultivar un diálogo interno positivo te ayuda a mantener una actitud optimista y amorosa hacia ti mismo. Al reprogramar tus pensamientos con amor y sabiduría, creas una mentalidad más fuerte y resiliente.",
+},
+{
+  "word": "Rompe el Miedo al Rechazo",
+  "image": "miedo_rechazo.png",
+  "phrase": "Liberarte del miedo al rechazo te permite actuar con valentía y seguir tus convicciones sin depender de la aprobación externa. Al ser fiel a ti mismo, avanzas con seguridad hacia tus metas, sin importar lo que piensen los demás.",
+},
   ];
 
   const [randomWord, setRandomWord] = useState(null);
