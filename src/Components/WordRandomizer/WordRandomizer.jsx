@@ -4,174 +4,146 @@ import "./WordRandomizer.css";
 const WordRandomizer = () => {
   const data = [
     {
-      word: "Momentum",
-      image: "algo.jpg",
-      phrase:
-        "Fuerza o impulso que se adquiere tras un esfuerzo continuo o una serie de hechos y circunstancias favorables.",
-    },
-    {
-      word: "Sincronicidad",
-      image: "algo.jpg",
-      phrase:
-        "Sincronicidad (sin-, del griego συν-, unión, y χρόνος, tiempo) es el término elegido por Carl Gustav Jung para aludir a «la simultaneidad de dos sucesos vinculados por el sentido pero de manera acausal». «Así pues, emplearé el concepto general de sincronicidad en el sentido especial de una coincidencia temporal de dos o más sucesos relacionados entre sí de una manera no causal, cuyo contenido significativo sea igual o similar». Para evitarse malentendidos «lo diferenciaré del término sincronismo, que constituye la mera simultaneidad de dos sucesos»",
-    },
-    {
-      word: "El Kybalion",
-      image: "algo.jpg",
-      phrase:
-        "El Kybalion es un libro que resume los principios herméticos, incluyendo la idea de que como es arriba, es abajo y otros principios fundamentales de la filosofía hermética.",
-    },
-    {
-      word: "Las 7 Leyes Espirituales",
-      image: "algo.jpg",
-      phrase:
-        " Estas leyes se refieren a los principios espirituales que gobiernan la vida y la conciencia, y fueron popularizadas por Deepak Chopra en su libro Las Siete Leyes Espirituales del Éxito.",
-    },
-    {
-      word: "Las 7 Leyes de las Personas Altamente Efectivas",
-      image: "algo.jpg",
-      phrase:
-        " Estas leyes provienen del libro de Stephen Covey, Los 7 Hábitos de las Personas Altamente Efectivas, que abordan principios para el liderazgo personal y profesional.",
-    },
-    {
-      word: "Intuición",
-      image: "algo.jpg",
-      phrase:
-        "  La intuición es la capacidad de comprender o percibir algo sin necesidad de razonamiento lógico, a menudo asociada con la toma de decisiones basada en la corazonada.",
-    },
-    {
-      word: "Intuición",
-      image: "algo.jpg",
-      phrase:
-        "  La intuición es la capacidad de comprender o percibir algo sin necesidad de razonamiento lógico, a menudo asociada con la toma de decisiones basada en la corazonada.",
-    },
-    {
-      word: "Ley de la Proactividad",
-      image: "algo.jpg",
-      phrase:
-        "  Esta ley enfatiza la importancia de tomar control sobre tu propia vida y acciones. Las personas proactivas reconocen que son responsables de sus propias elecciones y comportamientos.",
-    },
-    {
-      word: "Ley de Fin en Mente",
-      image: "algo.jpg",
-      phrase:
-        "   Se refiere a la importancia de tener un propósito y objetivos claros en la vida. Define tu visión y luego trabaja hacia ella de manera constante.",
-    },
-    {
-      word: "Ley de Fin en Mente",
-      image: "algo.jpg",
-      phrase:
-        "    Sugiere que debes enfocarte en las tareas y actividades que son verdaderamente importantes y contribuyen a tus objetivos a largo plazo, en lugar de simplemente ocuparte de lo urgente.",
-    },
-    {
-      word: "Ley de Ganar-Ganar",
-      image: "algo.jpg",
-      phrase:
-        "   Esta ley promueve la idea de buscar soluciones y acuerdos en las que todas las partes involucradas se beneficien mutuamente. Busca relaciones y soluciones en las que todos ganen",
-    },
-    {
-      word: "Ley de la Búsqueda de Entender Antes de Ser Entendido",
-      image: "algo.jpg",
-      phrase:
-        "   Implica la importancia de escuchar activamente a los demás antes de intentar expresar tus propios puntos de vista. Comprender a los demás construye relaciones más sólidas.",
-    },
-    {
-      word: "Ley de la Sinergia",
-      image: "algo.jpg",
-      phrase:
-        "   Se trata de trabajar en colaboración y aprovechar las fortalezas de cada individuo para lograr resultados superiores a los que podrían lograrse individualmente.",
-    },
-    {
-      word: "Ley de la Renovación Equilibrada",
-      image: "algo.jpg",
-      phrase:
-        "   Promueve el equilibrio y el cuidado de todos los aspectos de tu vida, incluyendo físico, mental, emocional y espiritual, para mantener una efectividad sostenible.",
-    },
-    {
-      word: "Ley de la Potencialidad Pura",
-      image: "algo.jpg",
-      phrase:
-        "   Esta ley habla de la infinita posibilidad que reside en cada uno de nosotros y cómo podemos acceder a nuestro potencial a través de la meditación y la conexión con la conciencia universal.",
-    },
-    {
-      word: "Ley del Dar",
-      image: "algo.jpg",
-      phrase:
-        "   Se enfoca en la importancia de dar con amor y generosidad, reconociendo que el acto de dar crea abundancia en tu vida.",
-    },
-    {
-      word: "Ley del Karma o Causa y Efecto",
-      image: "algo.jpg",
-      phrase:
-        "   Esta ley sostiene que cada acción tiene una reacción, y nuestras acciones pasadas y presentes afectan nuestro futuro. Siempre cosecharás lo que siembras",
-    },
-    {
-      word: "Ley de la Mínima Resistencia",
-      image: "algo.jpg",
-      phrase:
-        "   Esta ley sugiere que fluyendo con la vida, en lugar de resistirse a ella, puedes lograr tus objetivos de manera más eficiente y sin esfuerzo.",
-    },
-    {
-      word: "Ley de la Intención y el Deseo",
-      image: "algo.jpg",
-      phrase:
-        "   Habla de la importancia de establecer intenciones claras y alinear tus deseos con la ley del universo para manifestar lo que deseas.",
-    },
-    {
-      word: "Ley del Desapego",
-      image: "algo.jpg",
-      phrase:
-        "   Implica liberar la necesidad de aferrarse a las cosas materiales y confiar en el universo para proveer lo que necesitas.",
-    },
-    {
-      word: "Ley del Dharma o Propósito en la Vida",
-      image: "algo.jpg",
-      phrase:
-        "  Se centra en descubrir y vivir de acuerdo con tu propósito o misión en la vida, lo que lleva a una sensación de plenitud y realización.",
-    },
-    {
-      word: "Principio del Mentalismo",
-      image: "imagen1.jpg",
-      phrase:
-        "Todo es mente; el universo es mental. Este principio sugiere que todo en el universo es una manifestación de la mente.",
-    },
-    {
-      word: "Principio de la Correspondencia",
-      image: "imagen2.jpg",
-      phrase:
-        "Como es arriba, es abajo; como es abajo, es arriba. Este principio implica que hay una correspondencia entre los planos físicos y mentales del universo.",
-    },
-    {
-      word: "Principio de la Vibración",
-      image: "imagen3.jpg",
-      phrase:
-        "Nada está inmóvil; todo se mueve; todo vibra. Este principio se refiere a que todo está en constante movimiento y vibración.",
-    },
-    {
-      word: "Principio de la Polaridad",
-      image: "imagen4.jpg",
-      phrase:
-        "Todo es dual; todo tiene polos; todo tiene su par de opuestos. Este principio sugiere que todo tiene un opuesto y que los opuestos son dos aspectos de la misma cosa.",
-    },
-    {
-      word: "Principio del Ritmo",
-      image: "imagen5.jpg",
-      phrase:
-        "Todo fluye y refluye; todo tiene sus períodos de avance y retroceso, todo asciende y desciende. Este principio se relaciona con los ciclos y ritmos en el universo.",
-    },
-    {
-      word: "Principio de la Causa y Efecto",
-      image: "imagen6.jpg",
-      phrase:
-        "Toda causa tiene su efecto; todo efecto tiene su causa. Este principio enfatiza la relación de causa y efecto en todo lo que sucede.",
-    },
-    {
-      word: "Principio de Generación",
-      image: "imagen7.jpg",
-      phrase:
-        "La generación existe en todo; todo tiene su principio masculino y femenino. Este principio se refiere a la dualidad presente en la creación y la regeneración continua en el universo.",
-    },
-    {
+  "word": "Momentum",
+  "image": "algo.jpg",
+  "phrase": "Fuerza o impulso que se adquiere tras un esfuerzo continuo o una serie de hechos y circunstancias favorables.",
+},
+{
+  "word": "Sincronicidad",
+  "image": "algo.jpg",
+  "phrase": "Sincronicidad (sin-, del griego συν-, unión, y χρόνος, tiempo) es el término elegido por Carl Gustav Jung para aludir a «la simultaneidad de dos sucesos vinculados por el sentido pero de manera acausal». «Así pues, emplearé el concepto general de sincronicidad en el sentido especial de una coincidencia temporal de dos o más sucesos relacionados entre sí de una manera no causal, cuyo contenido significativo sea igual o similar». Para evitarse malentendidos «lo diferenciaré del término sincronismo, que constituye la mera simultaneidad de dos sucesos»",
+},
+{
+  "word": "El Kybalion",
+  "image": "algo.jpg",
+  "phrase": "El Kybalion es un libro que resume los principios herméticos, incluyendo la idea de que como es arriba, es abajo y otros principios fundamentales de la filosofía hermética.",
+},
+{
+  "word": "Las 7 Leyes Espirituales",
+  "image": "algo.jpg",
+  "phrase": "Estas leyes se refieren a los principios espirituales que gobiernan la vida y la conciencia, y fueron popularizadas por Deepak Chopra en su libro Las Siete Leyes Espirituales del Éxito.",
+},
+{
+  "word": "Las 7 Leyes de las Personas Altamente Efectivas",
+  "image": "algo.jpg",
+  "phrase": "Estas leyes provienen del libro de Stephen Covey, Los 7 Hábitos de las Personas Altamente Efectivas, que abordan principios para el liderazgo personal y profesional.",
+},
+{
+  "word": "Intuición",
+  "image": "algo.jpg",
+  "phrase": "La intuición es la capacidad de comprender o percibir algo sin necesidad de razonamiento lógico, a menudo asociada con la toma de decisiones basada en la corazonada.",
+},
+{
+  "word": "Intuición",
+  "image": "algo.jpg",
+  "phrase": "La intuición es la capacidad de comprender o percibir algo sin necesidad de razonamiento lógico, a menudo asociada con la toma de decisiones basada en la corazonada.",
+},
+{
+  "word": "Ley de la Proactividad",
+  "image": "algo.jpg",
+  "phrase": "Esta ley enfatiza la importancia de tomar control sobre tu propia vida y acciones. Las personas proactivas reconocen que son responsables de sus propias elecciones y comportamientos.",
+},
+{
+  "word": "Ley de Fin en Mente",
+  "image": "algo.jpg",
+  "phrase": "Se refiere a la importancia de tener un propósito y objetivos claros en la vida. Define tu visión y luego trabaja hacia ella de manera constante.",
+},
+{
+  "word": "Ley de Fin en Mente",
+  "image": "algo.jpg",
+  "phrase": "Sugiere que debes enfocarte en las tareas y actividades que son verdaderamente importantes y contribuyen a tus objetivos a largo plazo, en lugar de simplemente ocuparte de lo urgente.",
+},
+{
+  "word": "Ley de Ganar-Ganar",
+  "image": "algo.jpg",
+  "phrase": "Esta ley promueve la idea de buscar soluciones y acuerdos en las que todas las partes involucradas se beneficien mutuamente. Busca relaciones y soluciones en las que todos ganen",
+},
+{
+  "word": "Ley de la Búsqueda de Entender Antes de Ser Entendido",
+  "image": "algo.jpg",
+  "phrase": "Implica la importancia de escuchar activamente a los demás antes de intentar expresar tus propios puntos de vista. Comprender a los demás construye relaciones más sólidas.",
+},
+{
+  "word": "Ley de la Sinergia",
+  "image": "algo.jpg",
+  "phrase": "Se trata de trabajar en colaboración y aprovechar las fortalezas de cada individuo para lograr resultados superiores a los que podrían lograrse individualmente.",
+},
+{
+  "word": "Ley de la Renovación Equilibrada",
+  "image": "algo.jpg",
+  "phrase": "Promueve el equilibrio y el cuidado de todos los aspectos de tu vida, incluyendo físico, mental, emocional y espiritual, para mantener una efectividad sostenible.",
+},
+{
+  "word": "Ley de la Potencialidad Pura",
+  "image": "algo.jpg",
+  "phrase": "Esta ley habla de la infinita posibilidad que reside en cada uno de nosotros y cómo podemos acceder a nuestro potencial a través de la meditación y la conexión con la conciencia universal.",
+},
+{
+  "word": "Ley del Dar",
+  "image": "algo.jpg",
+  "phrase": "Se enfoca en la importancia de dar con amor y generosidad, reconociendo que el acto de dar crea abundancia en tu vida.",
+},
+{
+  "word": "Ley del Karma o Causa y Efecto",
+  "image": "algo.jpg",
+  "phrase": "Esta ley sostiene que cada acción tiene una reacción, y nuestras acciones pasadas y presentes afectan nuestro futuro. Siempre cosecharás lo que siembras",
+},
+{
+  "word": "Ley de la Mínima Resistencia",
+  "image": "algo.jpg",
+  "phrase": "Esta ley sugiere que fluyendo con la vida, en lugar de resistirse a ella, puedes lograr tus objetivos de manera más eficiente y sin esfuerzo.",
+},
+{
+  "word": "Ley de la Intención y el Deseo",
+  "image": "algo.jpg",
+  "phrase": "Habla de la importancia de establecer intenciones claras y alinear tus deseos con la ley del universo para manifestar lo que deseas.",
+},
+{
+  "word": "Ley del Desapego",
+  "image": "algo.jpg",
+  "phrase": "Implica liberar la necesidad de aferrarse a las cosas materiales y confiar en el universo para proveer lo que necesitas.",
+},
+{
+  "word": "Ley del Dharma o Propósito en la Vida",
+  "image": "algo.jpg",
+  "phrase": "Se centra en descubrir y vivir de acuerdo con tu propósito o misión en la vida, lo que lleva a una sensación de plenitud y realización.",
+},
+{
+  "word": "Principio del Mentalismo",
+  "image": "imagen1.jpg",
+  "phrase": "Todo es mente; el universo es mental. Este principio sugiere que todo en el universo es una manifestación de la mente.",
+},
+{
+  "word": "Principio de la Correspondencia",
+  "image": "imagen2.jpg",
+  "phrase": "Como es arriba, es abajo; como es abajo, es arriba. Este principio implica que hay una correspondencia entre los planos físicos y mentales del universo.",
+},
+{
+  "word": "Principio de la Vibración",
+  "image": "imagen3.jpg",
+  "phrase": "Nada está inmóvil; todo se mueve; todo vibra. Este principio se refiere a que todo está en constante movimiento y vibración.",
+},
+{
+  "word": "Principio de la Polaridad",
+  "image": "imagen4.jpg",
+  "phrase": "Todo es dual; todo tiene polos; todo tiene su par de opuestos. Este principio sugiere que todo tiene un opuesto y que los opuestos son dos aspectos de la misma cosa.",
+},
+{
+  "word": "Principio del Ritmo",
+  "image": "imagen5.jpg",
+  "phrase": "Todo fluye y refluye; todo tiene sus períodos de avance y retroceso, todo asciende y desciende. Este principio se relaciona con los ciclos y ritmos en el universo.",
+},
+{
+  "word": "Principio de la Causa y Efecto",
+  "image": "imagen6.jpg",
+  "phrase": "Toda causa tiene su efecto; todo efecto tiene su causa. Este principio enfatiza la relación de causa y efecto en todo lo que sucede.",
+},
+{
+  "word": "Principio de Generación",
+  "image": "imagen7.jpg",
+  "phrase": "La generación existe en todo; todo tiene su principio masculino y femenino. Este principio se refiere a la dualidad presente en la creación y la regeneración continua en el universo.",
+},
+  {
     "word": "11 pasos de la magia: Paso 1: La Preparación",
     "image": "algo.jpg",
     "phrase": "En el primer paso, La Preparación, se trata de crear un ambiente propicio. Preparar el espacio y la mente es esencial para la práctica mágica, estableciendo las bases sólidas para el trabajo por venir."
@@ -332,95 +304,80 @@ const WordRandomizer = () => {
   "phrase": "La Logosofía es una disciplina filosófica y espiritual que se centra en el conocimiento de uno mismo y en el desarrollo de la conciencia. Busca el entendimiento de las leyes universales y propone una forma de vivir más consciente y en armonía con el mundo que nos rodea. La Logosofía ofrece herramientas y técnicas para el crecimiento interior, la autorreflexión y el autodescubrimiento."
 },
     {
-    word: "Amor a uno mismo",
-    image: "amor_uno_mismo.png",
-    phrase:
-      "El amor a uno mismo es la base para una vida plena. Implica cuidar de nuestras necesidades emocionales, físicas y espirituales, reconociendo nuestro valor y cultivando una relación positiva con nosotros mismos.",
-  },
-  {
-    word: "Respeto al prójimo",
-    image: "respeto_projimo.png",
-    phrase:
-      "El respeto al prójimo es fundamental para una convivencia armoniosa. Significa reconocer la dignidad y los derechos de los demás, tratando a cada individuo con consideración y empatía.",
-  },
-  {
-    word: "Equilibrio Interior",
-    image: "equilibrio_interior.png",
-    phrase:
-      "El equilibrio interior es la armonía entre cuerpo, mente y espíritu. Buscar este equilibrio nos permite enfrentar los desafíos de la vida con calma y claridad, manteniendo nuestra paz interna.",
-  },
-  {
-    word: "Fluidez",
-    image: "fluidez.png",
-    phrase:
-      "La fluidez es la capacidad de adaptarse y fluir con los cambios de la vida. Nos permite estar abiertos a nuevas experiencias y situaciones, sin resistencia ni rigidez.",
-  },
-  {
-    word: "Conexión Universal",
-    image: "conexion_universal.png",
-    phrase:
-      "La conexión universal es la comprensión de que todo en el universo está interconectado. Nos recuerda que nuestras acciones y pensamientos tienen un impacto en el mundo que nos rodea.",
-  },
-  {
-    word: "Serenidad",
-    image: "serenidad.png",
-    phrase:
-      "La serenidad es la calma interior que nos permite enfrentar el caos externo. Nos ayuda a mantener la paz mental y emocional, incluso en momentos de turbulencia.",
-  },
-  {
-    word: "Claridad Mental",
-    image: "claridad_mental.png",
-    phrase:
-      "La claridad mental es la capacidad de pensar con enfoque y precisión. Nos permite tomar decisiones informadas y ver con claridad el camino hacia nuestros objetivos.",
-  },
-  {
-    word: "Resiliencia",
-    image: "resiliencia.png",
-    phrase:
-      "La resiliencia es la capacidad de recuperarse de las adversidades. Nos permite superar los obstáculos y crecer a partir de las experiencias difíciles, saliendo más fuertes y sabios.",
-  },
-  {
-    word: "Autenticidad",
-    image: "autenticidad.png",
-    phrase:
-      "La autenticidad es ser fiel a uno mismo y a nuestros valores. Nos anima a expresarnos genuinamente, sin miedo al juicio externo, creando conexiones más profundas y significativas.",
-  },
-  {
-    word: "Empatía",
-    image: "empatia.png",
-    phrase:
-      "La empatía es la capacidad de ponerse en el lugar del otro y comprender sus sentimientos. Nos permite construir relaciones sólidas y contribuir a un mundo más compasivo y comprensivo.",
-  },
-  {
-    word: "Gratitud",
-    image: "gratitud.png",
-    phrase:
-      "La gratitud es reconocer y apreciar las bendiciones de la vida. Nos ayuda a enfocarnos en lo positivo, cultivando una actitud de alegría y generosidad.",
-  },
-  {
-    word: "Equidad",
-    image: "equidad.png",
-    phrase:
-      "La equidad es la justicia y la imparcialidad en nuestras interacciones. Nos impulsa a tratar a todos con igualdad de oportunidades y derechos, promoviendo la inclusión y la diversidad.",
-  },
-  {
-    word: "Abundancia",
-    image: "abundancia.png",
-    phrase:
-      "La abundancia es la creencia en la suficiencia y la prosperidad. Nos permite ver el mundo como un lugar lleno de oportunidades y posibilidades, cultivando una mentalidad de plenitud y generosidad.",
-  },
-  {
-    word: "Armonía",
-    image: "armonia.png",
-    phrase:
-      "La armonía es el equilibrio y la coexistencia pacífica. Nos inspira a buscar la paz tanto dentro de nosotros mismos como en nuestras relaciones con los demás y el mundo que nos rodea.",
-  },
-  {
-    word: "Conciencia Plena",
-    image: "conciencia_plena.png",
-    phrase:
-      "La conciencia plena es estar presente en el momento presente con atención y aceptación. Nos ayuda a reducir el estrés, mejorar la concentración y experimentar la vida con mayor claridad y serenidad.",
-  },
+  "word": "Amor a uno mismo",
+  "image": "amor_uno_mismo.png",
+  "phrase": "El amor a uno mismo es la base para una vida plena. Implica cuidar de nuestras necesidades emocionales, físicas y espirituales, reconociendo nuestro valor y cultivando una relación positiva con nosotros mismos.",
+},
+{
+  "word": "Respeto al prójimo",
+  "image": "respeto_projimo.png",
+  "phrase": "El respeto al prójimo es fundamental para una convivencia armoniosa. Significa reconocer la dignidad y los derechos de los demás, tratando a cada individuo con consideración y empatía.",
+},
+{
+  "word": "Equilibrio Interior",
+  "image": "equilibrio_interior.png",
+  "phrase": "El equilibrio interior es la armonía entre cuerpo, mente y espíritu. Buscar este equilibrio nos permite enfrentar los desafíos de la vida con calma y claridad, manteniendo nuestra paz interna.",
+},
+{
+  "word": "Fluidez",
+  "image": "fluidez.png",
+  "phrase": "La fluidez es la capacidad de adaptarse y fluir con los cambios de la vida. Nos permite estar abiertos a nuevas experiencias y situaciones, sin resistencia ni rigidez.",
+},
+{
+  "word": "Conexión Universal",
+  "image": "conexion_universal.png",
+  "phrase": "La conexión universal es la comprensión de que todo en el universo está interconectado. Nos recuerda que nuestras acciones y pensamientos tienen un impacto en el mundo que nos rodea.",
+},
+{
+  "word": "Serenidad",
+  "image": "serenidad.png",
+  "phrase": "La serenidad es la calma interior que nos permite enfrentar el caos externo. Nos ayuda a mantener la paz mental y emocional, incluso en momentos de turbulencia.",
+},
+{
+  "word": "Claridad Mental",
+  "image": "claridad_mental.png",
+  "phrase": "La claridad mental es la capacidad de pensar con enfoque y precisión. Nos permite tomar decisiones informadas y ver con claridad el camino hacia nuestros objetivos.",
+},
+{
+  "word": "Resiliencia",
+  "image": "resiliencia.png",
+  "phrase": "La resiliencia es la capacidad de recuperarse de las adversidades. Nos permite superar los obstáculos y crecer a partir de las experiencias difíciles, saliendo más fuertes y sabios.",
+},
+{
+  "word": "Autenticidad",
+  "image": "autenticidad.png",
+  "phrase": "La autenticidad es ser fiel a uno mismo y a nuestros valores. Nos anima a expresarnos genuinamente, sin miedo al juicio externo, creando conexiones más profundas y significativas.",
+},
+{
+  "word": "Empatía",
+  "image": "empatia.png",
+  "phrase": "La empatía es la capacidad de ponerse en el lugar del otro y comprender sus sentimientos. Nos permite construir relaciones sólidas y contribuir a un mundo más compasivo y comprensivo.",
+},
+{
+  "word": "Gratitud",
+  "image": "gratitud.png",
+  "phrase": "La gratitud es reconocer y apreciar las bendiciones de la vida. Nos ayuda a enfocarnos en lo positivo, cultivando una actitud de alegría y generosidad.",
+},
+{
+  "word": "Equidad",
+  "image": "equidad.png",
+  "phrase": "La equidad es la justicia y la imparcialidad en nuestras interacciones. Nos impulsa a tratar a todos con igualdad de oportunidades y derechos, promoviendo la inclusión y la diversidad.",
+},
+{
+  "word": "Abundancia",
+  "image": "abundancia.png",
+  "phrase": "La abundancia es la creencia en la suficiencia y la prosperidad. Nos permite ver el mundo como un lugar lleno de oportunidades y posibilidades, cultivando una mentalidad de plenitud y generosidad.",
+},
+{
+  "word": "Armonía",
+  "image": "armonia.png",
+  "phrase": "La armonía es el equilibrio y la coexistencia pacífica. Nos inspira a buscar la paz tanto dentro de nosotros mismos como en nuestras relaciones con los demás y el mundo que nos rodea.",
+},
+{
+  "word": "Conciencia Plena",
+  "image": "conciencia_plena.png",
+  "phrase": "La conciencia plena es estar presente en el momento presente con atención y aceptación. Nos ayuda a reducir el estrés, mejorar la concentración y experimentar la vida con mayor claridad y serenidad.",
+},
   ];
 
   const [randomWord, setRandomWord] = useState(null);
